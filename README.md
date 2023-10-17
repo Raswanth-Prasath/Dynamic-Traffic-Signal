@@ -1,5 +1,5 @@
 # Dynamic-Traffic-Signal
-This repository contains files for the traffic light management system using Reinforcement Learning.
+This repository contains files for the traffic signal system using Reinforcement Learning.
 
 
 ## How to train new Networks.
@@ -24,8 +24,17 @@ cd into maps folder and run the following command
 
 This will create a routes.rou.xml file for 500 simulation steps for the network "network.net.xml"
 
+### Step2: Set Configuration file.
 
-### Step2: Train the model.
+You need to provide network and route files to the Configuration file.<br/>
+change net-file and route-files in input.
+
+`<input>`        
+  `<net-file value='network.net.xml'/>`
+  `<route-files value='route.rou.xml'/>`
+`</input>`
+
+### Step3: Train the model.
 
 Now use the train.py file to train a model for this network.<br/>
 
@@ -39,7 +48,7 @@ This code will train the model for 50 epochs.<br/>
 
 At the end of the simulation, it will show time_vs_epoch graphs and save them to plots folder with name time_vs_epoch_{model_name}.png
 
-### Step3: Running trained model.
+### Step4: Running trained model.
 
 You can use train.py to run a pre-trained model on GUI.
 
