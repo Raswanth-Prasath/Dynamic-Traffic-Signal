@@ -5,7 +5,7 @@ This repository contains files for the traffic signal system using Reinforcement
 ## How to train new Networks.
 
 First Download or clone the repository.<br/>
-Then pip install requirements.txt using
+Then pip install requirements.txt using  
 
 `pip install -r requirements.txt`
 
