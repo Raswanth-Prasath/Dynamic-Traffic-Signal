@@ -1,7 +1,6 @@
 # Dynamic-Traffic-Signal
 This repository contains files for the traffic signal system using Reinforcement Learning.
 
-
 ## How to train new Networks.
 
 First Download or clone the repository.<br/>
@@ -54,7 +53,7 @@ You can use train.py to run a pre-trained model on GUI.
 
 `python train.py -m model_name -s 500` 
 
-This will open GUI which you can run to see how your model performs.
-To get accurate results set a value of -s the same for testing and training.
+This command will open the SUMO GUI and allow you to see how your model performs. 
+Make sure to set the same value for -s during testing and training to get accurate results.
 
 
