@@ -24,7 +24,7 @@ cd into maps folder and run the following command
 This will create a routes.rou.xml file for 500 simulation steps for the network "network.net.xml"
 
 ### Network
-![map1](/Network.PNG)
+![map1](Network.png)
 
 ### Step2: Set Configuration file.
 
