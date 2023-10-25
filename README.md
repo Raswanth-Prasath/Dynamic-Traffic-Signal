@@ -23,7 +23,7 @@ cd into maps folder and run the following command
 
 This will create a routes.rou.xml file for 500 simulation steps for the network "network.net.xml"
 
-### Network
+### Map
 ![map1](Network.png)
 
 ### Step2: Set Configuration file.
@@ -58,5 +58,10 @@ You can use train.py to run a pre-trained model on GUI.
 
 This command will open the SUMO GUI and allow you to see how your model performs. 
 Make sure to set the same value for -s during testing and training to get accurate results.
+
+### Simulation of Trained Model
+(Stimulation.png)
+
+
 
 
