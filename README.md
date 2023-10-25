@@ -60,7 +60,7 @@ This command will open the SUMO GUI and allow you to see how your model performs
 Make sure to set the same value for -s during testing and training to get accurate results.
 
 ### Simulation of Trained Model
-(Stimulation.png)
+![map1](Stimulation.png)
 
 
 
